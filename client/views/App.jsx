@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import Routers from "../config/router";
 
 class App extends Component {
   render() {
-    return <div>you suck VSCode is awesome Git is awesome React is awesome manu React is awesome and SSR is awesome</div>;
+    return [<div> you suck this is App component</div>, <Routers />];
   }
 }
 
