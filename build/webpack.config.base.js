@@ -17,7 +17,8 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ["env", "react"]
+            presets: ["env", "react", "stage-1"],
+            plugins: ["transform-decorators-legacy", "react-hot-loader/babel"]
           }
         }
       }
